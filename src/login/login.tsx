@@ -26,7 +26,7 @@ export function Login() {
         }
         console.log(loginModel);
 
-        localStorage.setItem("usuario",JSON.stringify(loginModel));
+        localStorage.setItem("acesso",JSON.stringify(loginModel));
 
        navigate("/pedidos")
     }
